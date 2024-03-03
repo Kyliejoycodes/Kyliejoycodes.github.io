@@ -61,9 +61,9 @@ const Experience = () => {
           {/* <a href="https://www.canva.com/design/DAFXbbZwU0E/eIG-ynchymGfmgUeXZGzdQ/view?utm_content=DAFXbbZwU0E&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" >
       <img id="canva" src="src/assets/howto.png"></img>
       </a>     */}
-      <img id="samsungpic" src="./assets/samsungpic.JPG"/>
-      <img id="bestbuypic" src="./assets/bestbuypic.JPG"/>
-      <img id="bestbuypic2" src="./assets/bestbuypic2.JPG"/>
+      <img id="samsungpic" src="/assets/samsungpic.jpg"/>
+      <img id="bestbuypic" src="/assets/bestbuypic.jpg"/>
+      <img id="bestbuypic2" src="/assets/bestbuypic2.jpg"/>
     <div className="mt-20 flex flex-col parentofimage">
 
 
@@ -82,10 +82,10 @@ const Experience = () => {
 
     </div>
     <a href="https://drive.google.com/drive/u/0/folders/1X5VlmDTinKm13FVZBr7tJTza-3iHDkfI" target="_blank" >
-      <img id="cninfo" src="./assets/clickhere.PNG"></img>
+      <img id="cninfo" src="assets/clickhere.png"></img>
       </a>
       <a href="https://www.canva.com/design/DAFXbbZwU0E/eIG-ynchymGfmgUeXZGzdQ/view?utm_content=DAFXbbZwU0E&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" >
-      <img id="canva" src="./assets/howto.PNG"></img>
+      <img id="canva" src="assets/howto.png"></img>
       </a> 
     </>
   )
