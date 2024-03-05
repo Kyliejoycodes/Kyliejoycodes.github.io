@@ -8,6 +8,8 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
+import bikepic from "../assets/bikepic.png";
+
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
@@ -58,7 +60,10 @@ const About = () => {
          My personal passions extrude beyond just <br></br>technology development. I pursue anything automotive <br></br>related, particularly working on projects alongside Morgan <br></br>Indutries employees restoring antique military vehicles. I've <br></br>enjoyed practicing shotokan karate for the past 12 years, and <br></br>building video games and projects. Teaching is very important <br></br>to me, and something I do often with karate, computer science, and math/science.
 
       </motion.p>
-      <img className="shadow-card rounded-[400px]" id="picture" src="/assets/company/bikepic.png"></img>
+      {/* <img className="shadow-card rounded-[400px] static right-20" id="picture" src="./assets/bikepic.png"></img> */}
+      <img className="shadow-card rounded-[400px] static right-20" id="picture" src={bikepic} alt="Bike Pic" />
+
+
       </div>
 
       <div className='mt-20 flex flex-wrap gap-10'>

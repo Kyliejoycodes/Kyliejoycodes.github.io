@@ -26,11 +26,29 @@
 }
 #cninfo{
   position:absolute;
-  top:770px;
+  top:700px;
   left:200px;
   border-radius:20px;
   width:220px;
 }
+ @media only screen and (max-width: 1220px){ */
+
+  #cninfo {
+    display:none;
+  }
+  #samsungpic {
+    display:none;
+  }
+  #bestbuypic {
+    display:none;
+  }
+  #bestbuypic2 {
+    display:none;
+  }
+  #canva {
+    display:none;
+  }
+  } 
 #samsungpic{
   position:absolute;
   top:1100px;
@@ -40,21 +58,21 @@
 }
 #bestbuypic{
   position:absolute;
-  top:1950px;
+  top:1900px;
   right:170px;
   width:280px;
   border-radius:20px;
 }
 #bestbuypic2{
   position:absolute;
-  top:1530px;
+  top:1500px;
   left:170px;
   width:230px;
   border-radius:20px;
 }
 #canva{
   position:absolute;
-  top:2320px;
+  top:2220px;
   left:130px;
   width:370px;
   border-radius:20px;
@@ -64,6 +82,7 @@
   padding-bottom: 100px;
   display: block;
 }
+
 
 
 .waveSection{

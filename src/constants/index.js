@@ -37,7 +37,36 @@ import {
     jsimage,
     comingsoon,
     threejs,
+
+    // bikepic,
+    // bestbuypic,
+    // bestbuypic2,
+    // clickhere,
+    // samsungpic,
+    // howto,
   } from "../assets";
+
+  // export const timelinePics = [
+  //   {
+  //     icon:"bikepic"
+  //   },
+  //   {
+  //     icon:"bestbuypic"
+  //   },
+  //   {
+  //     icon:"bestbuypic2"
+  //   },
+  //   {
+  //     icon:"clickhere"
+  //   },
+  //   {
+  //     icon:"samsungpic"
+  //   },
+  //   {
+  //     icon:"howto"
+  //   },
+
+  // ];
   
   export const navLinks = [
     {
@@ -251,7 +280,7 @@ import {
        {
       testimonial:
         "I Deleted Social Media: The Grasp Media Consumption has on Humanity",
-      name: "Kylie Morgan",
+      name: "Kylie",
       designation: "Jan. 2024",
       company: "",
       //image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -261,7 +290,7 @@ import {
     {
       testimonial:
         "Fostering Envy, Not Empowerment: The Dilemma of Female Incentives in STEM ",
-      name: "Kylie Morgan",
+      name: "Joy",
       designation: "Dec. 2023",
       company: "",
       //image: "https://randomuser.me/api/portraits/women/4.jpg",
@@ -271,7 +300,7 @@ import {
     {
       testimonial:
         "AIs Unintentional Exposé of North American Law and Politics",
-      name: "Kylie Morgan",
+      name: "Morgan",
       designation: "Feb. 2024",
       company: "",
       //image: "https://randomuser.me/api/portraits/men/5.jpg",
@@ -477,4 +506,4 @@ import {
     // },
   ];
   
-  export { services, school, technologies, experiences, testimonials, projects,};
+  export {services, school, technologies, experiences, testimonials, projects,};

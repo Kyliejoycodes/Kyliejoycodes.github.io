@@ -25,7 +25,7 @@ const Footer = () => {
          </div>
 
       
-        <div className="flex flex-row gap-8 pt-10">
+        <div className="hidden sm:flex flex-wrap flex-row gap-8 pt-10">
       <a href="https://www.linkedin.com/in/kylie-morgan1/" target="_blank">
       <FontAwesomeIcon icon={faLinkedin} size="3x"/>
       </a>
@@ -48,7 +48,32 @@ const Footer = () => {
         <FontAwesomeIcon icon={faSpotify} size="3x"/>
       </a>
       </div>
-    </div>
+      </div>
+
+      <div className="flex-col gap-8 sm:hidden">
+      <a href="https://www.linkedin.com/in/kylie-morgan1/" target="_blank">
+      <FontAwesomeIcon icon={faLinkedin} size="2x"/>
+      </a>
+      <a href="https://www.instagram.com/kylie_morgan._/" target="_blank">
+        <FontAwesomeIcon icon={faInstagram} size="2x"/>
+      </a>
+      <a href="https://github.com/Kyliejoycodes" target="_blank">
+        <FontAwesomeIcon icon={faGithub} size="2x"/>
+      </a>
+      <a href="https://www.youtube.com/channel/UCRVQVARuZYs-az4cHX8EhDA" target="_blank">
+        <FontAwesomeIcon icon={faYoutube} size="2x"/>
+      </a>
+      <a href="mailto:kmorgan.dev@gmail.com" target="_blank">
+        <FontAwesomeIcon icon={faEnvelope} size="2x"/>
+      </a>
+      <a href="https://discord.com/users/715699914830643220" target="_blank">
+        <FontAwesomeIcon icon={faDiscord} size="2x"/>
+      </a>
+      <a href="https://open.spotify.com/user/domxcjsjovi5jydusocxozeh8?si=5ac62641bfb840bb" target="_blank">
+        <FontAwesomeIcon icon={faSpotify} size="2x"/>
+      </a>
+      </div>
+    {/* </div> */}
 
     </motion.div>
   </div>

@@ -44,6 +44,13 @@ import htmlcssimage from "./htmlcssimage.png";
 import jsimage from "./jsimage.png";
 import comingsoon from "./comingsoon.png";
 
+// import bikepic from "./bikepic.png";
+// import bestbuypic from "./bestbuypic.jpg";
+// import bestbuypic2 from "./bestbuypic2.jpg";
+// import clickhere from "./clickhere.png";
+// import samsungpic from "./samsungpic.jpg";
+// import howto from "./howto.png";
+
 export {
   logo,
   cardicon1,
@@ -85,4 +92,10 @@ export {
   elevatelogo,
   bestbuy,
   queens,
+  // bikepic,
+  // bestbuypic,
+  // bestbuypic2,
+  // clickhere,
+  // samsungpic,
+  // howto,
 };

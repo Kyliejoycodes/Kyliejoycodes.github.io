@@ -5,8 +5,15 @@ import 'react-vertical-timeline-component/style.min.css';
 
 import{styles} from '../styles';
 import {experiences} from '../constants';
+// import { timelinePics } from '../constants';
 import {SectionWrapper} from '../hoc';
 import {textVariant} from '../utils/motion';
+
+import clickhere from "../assets/clickhere.png";
+import howto from "../assets/howto.png";
+import samsungpic from "../assets/samsungpic.jpg";
+import bestbuypic from "../assets/bestbuypic.jpg";
+import bestbuypic2 from "../assets/bestbuypic2.jpg";
 
 const ExperienceCard = ({experience}) => (
   <VerticalTimelineElement
@@ -42,36 +49,42 @@ const ExperienceCard = ({experience}) => (
 </VerticalTimelineElement>
 )
 
+// const TimelinePic = ({timelinePic, index}) => (
+//   <img src={timelinePic.icon} key={index}/>
+  
+// )
+
 
 const Experience = () => {
   return (
     <>
-    {/* <motion.div variants={textVariant()}>
-    <p className={styles.sectionSubText}>Employment and Co-ops</p>
+    
+    {/*<p className={styles.sectionSubText}>Employment and Co-ops</p>
     <h2 className={styles.sectionHeadText}>Experiences</h2>
     </motion.div> */}
     <div variants={textVariant()}>
     <p className={styles.sectionSubText}>Employment and Co-ops</p>
     <h2 className={styles.sectionHeadText}>Experiences</h2>
     </div>
-
+{/* <motion.div variants={textVariant()}> */}
       {/* <a href="https://drive.google.com/drive/u/0/folders/1X5VlmDTinKm13FVZBr7tJTza-3iHDkfI" target="_blank" >
       <img id="cninfo" src="src/assets/clickhere.png"></img>
-      </a>  */}
-          {/* <a href="https://www.canva.com/design/DAFXbbZwU0E/eIG-ynchymGfmgUeXZGzdQ/view?utm_content=DAFXbbZwU0E&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" >
+      </a> 
+          <a href="https://www.canva.com/design/DAFXbbZwU0E/eIG-ynchymGfmgUeXZGzdQ/view?utm_content=DAFXbbZwU0E&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" >
       <img id="canva" src="src/assets/howto.png"></img>
-      </a>     */}
+      </a> 
       <img id="samsungpic" src="/assets/samsungpic.jpg"/>
       <img id="bestbuypic" src="/assets/bestbuypic.jpg"/>
-      <img id="bestbuypic2" src="/assets/bestbuypic2.jpg"/>
-    <div className="mt-20 flex flex-col parentofimage">
+      <img id="bestbuypic2" src="/assets/bestbuypic2.jpg"/> */}
 
+    {/* <div className='mt-20 flex flex-wrap gap-10'>
+        {timelinePics.map((timelinePic,index) => (
+          <TimelinePic key={index} timelinePic={timelinePic}/>
+        ))}</div> */}
 
-
- 
 
       <VerticalTimeline>
-        <div>
+      <div>
         {experiences.map((experience,index) => (
           <ExperienceCard key={index} experience={experience}/>
         ))}</div>
@@ -79,14 +92,32 @@ const Experience = () => {
       <h1 className='text-[24px] text-white font-bold' style={{ paddingTop: '40px' }}>Non Tech-Realted Employment: </h1>
       <p className='text-[18px]'>Golf: Pheasant Run(2021-2023), Mill Run(2021-2022), Red Crest Resort(2020-2021), Cardinal Golf Club(2020-2021)</p>
       <p className='text-[18px]'>Karate: Community Martial Arts Shotokan Karate Teacher(2018-2022)</p>
+      {/* </motion.div> */}
 
-    </div>
+      {/* </div> */}
+      <div className="hidden sm:flex smallpictures">
     <a href="https://drive.google.com/drive/u/0/folders/1X5VlmDTinKm13FVZBr7tJTza-3iHDkfI" target="_blank" >
-      <img id="cninfo" src="assets/clickhere.png"></img>
+      <img id="cninfo" src={clickhere} className='top:500px'></img>
       </a>
-      <a href="https://www.canva.com/design/DAFXbbZwU0E/eIG-ynchymGfmgUeXZGzdQ/view?utm_content=DAFXbbZwU0E&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" >
-      <img id="canva" src="assets/howto.png"></img>
+     <a href="https://www.canva.com/design/DAFXbbZwU0E/eIG-ynchymGfmgUeXZGzdQ/view?utm_content=DAFXbbZwU0E&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" >
+      <img id="canva" src={howto} className='top:500px'></img>
       </a> 
+      <img id="samsungpic" src={samsungpic}className='top:500px'/>
+      <img id="bestbuypic" src={bestbuypic} className='top:500px'/>
+      <img id="bestbuypic2" src={bestbuypic2} className='top:500px'/>
+      </div>
+      
+      {/* <div className="smallpictures flex flex-wrap justify-center gap-4 mt-8">
+        <a href="https://drive.google.com/drive/u/0/folders/1X5VlmDTinKm13FVZBr7tJTza-3iHDkfI" target="_blank">
+          <img src={clickhere} alt="click here" className="w-[120px] h-[120px] sm:w-[180px] sm:h-[180px]"/>
+        </a>
+        <a href="https://www.canva.com/design/DAFXbbZwU0E/eIG-ynchymGfmgUeXZGzdQ/view?utm_content=DAFXbbZwU0E&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">
+          <img src={howto} alt="how to" className="w-[120px] h-[120px] sm:w-[180px] sm:h-[180px]"/>
+        </a>
+        <img src={samsungpic} alt="samsung" className="w-[120px] h-[120px] sm:w-[180px] sm:h-[180px]"/>
+        <img src={bestbuypic} alt="best buy" className="w-[120px] h-[120px] sm:w-[180px] sm:h-[180px]"/>
+        <img src={bestbuypic2} alt="best buy 2" className="w-[120px] h-[120px] sm:w-[180px] sm:h-[180px]"/>
+      </div> */}
     </>
   )
 }
