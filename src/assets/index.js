@@ -44,6 +44,8 @@ import htmlcssimage from "./htmlcssimage.png";
 import jsimage from "./jsimage.png";
 import comingsoon from "./comingsoon.png";
 
+import file from "./file-text-dynamic-gradient.png";
+
 // import bikepic from "./bikepic.png";
 // import bestbuypic from "./bestbuypic.jpg";
 // import bestbuypic2 from "./bestbuypic2.jpg";
@@ -92,6 +94,7 @@ export {
   elevatelogo,
   bestbuy,
   queens,
+  file,
   // bikepic,
   // bestbuypic,
   // bestbuypic2,

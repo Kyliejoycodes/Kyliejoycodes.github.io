@@ -38,6 +38,8 @@ import {
     comingsoon,
     threejs,
 
+    file,
+
     // bikepic,
     // bestbuypic,
     // bestbuypic2,
@@ -284,7 +286,7 @@ import {
       designation: "Jan. 2024",
       company: "",
       //image: "https://randomuser.me/api/portraits/women/6.jpg",
-      image: "src/assets/file-text-dynamic-gradient.png",
+      image: file,
       link:"src/components/canvas/Article3.html",
     }, 
     {
@@ -294,7 +296,7 @@ import {
       designation: "Dec. 2023",
       company: "",
       //image: "https://randomuser.me/api/portraits/women/4.jpg",
-      image: "src/assets/file-text-dynamic-gradient.png",
+      image: file,
       link:"src/components/canvas/Article1.html",
     },
     {
@@ -304,7 +306,7 @@ import {
       designation: "Feb. 2024",
       company: "",
       //image: "https://randomuser.me/api/portraits/men/5.jpg",
-      image: "src/assets/file-text-dynamic-gradient.png",
+      image: file,
       link:"src/components/canvas/Article2.html",
     },
 
