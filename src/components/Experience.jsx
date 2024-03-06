@@ -100,7 +100,7 @@ const Experience = () => {
       
 
       <div className="hidden sm:flex">    
-        <div id="dog" class="sketchfab-embed-wrapper"> <iframe width="50%" height="400" title="Dog" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/c05d5172368b4d9f9b6751832c73f854/embed?autospin=1&camera=0&preload=1"> </iframe> </div>
+
     <a href="https://drive.google.com/drive/u/0/folders/1X5VlmDTinKm13FVZBr7tJTza-3iHDkfI" target="_blank" >
       <img id="cninfo" src={clickhere} className='top:500px'></img>
       </a>
@@ -109,7 +109,10 @@ const Experience = () => {
       </a> 
       <img id="samsungpic" src={samsungpic}className='top:500px'/>
       <img id="bestbuypic" src={bestbuypic} className='top:500px'/>
-      <img id="bestbuypic2" src={bestbuypic2} className='top:500px'/>
+      <img id="bestbuypic2" src={bestbuypic2} className='top:500px'/>        
+      <div className="sketchfab-embed-wrapper"> 
+      <iframe id='dog' title="Dog" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/c05d5172368b4d9f9b6751832c73f854/embed?autospin=1&camera=0&preload=1"> </iframe> 
+      </div>
       </div>
       
       {/* <div className="smallpictures flex flex-wrap justify-center gap-4 mt-8">

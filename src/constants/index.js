@@ -98,9 +98,13 @@ import {
       title: "Web Developer",
       icon: web,
     },
+    // {
+    //   title: "Game Developer",
+    //   icon: mobile,
+    // },
     {
-      title: "Game Developer",
-      icon: mobile,
+      title: "Asset Management",
+      icon:file,
     },
     {
       title: "Content Creator",
@@ -111,22 +115,22 @@ import {
     {
       title: "University of Waterloo",
       icon: calculator,
-      description:'2023-2028 \n Bachelors of Applied Science \n Engineering Ambassador, Comp. Eng. Cohort Ambassador, Orbital team member',
+      description:'2023-2028 \n Bachelors of Applied Science. \n Engineering Ambassador, Comp. Eng. Cohort Ambassador, Orbital team member.',
     },
     {
       title: "Social Justice Success",
       icon: chat,
-      description:'Recipient of YRDSB Succesful Student award from 130 000 applicants for positive community influence. \n 2021-2023 Student Council President \n Indigenous Representative',
+      description:'Recipient of YRDSB Successful Student award from 130 000 applicants for positive community influence. \n Newmarket Legion veterans volunteer. 2021-2023 Student Council President, \n Indigenous Representative.',
     },
     {
       title: "Athletics",
       icon: gym,
-      description:'2010-2022: Community Martial Arts Shotokan Karate Black Belt. \n YRDSB: 2021-2023 Athletic Council President, Curling Team Captain, Cheerleading, Basketball, Badminton, Cross Country',
+      description:'2010-2022: Community Martial Arts Shotokan Karate Black Belt. \n YRDSB: 2021-2023 Athletic Council President, Curling Team Captain, Cheerleading, Basketball, Badminton, Cross Country.',
     },
     {
       title: "Awards",
       icon: award,
-      description:'Shotokan Karate Black Belt, Successful Student Award, French Merit Award, YRDSB Mandarin Certification, Ontario Scholars Award,YRDSB Student Impact Award ',
+      description:'Shotokan Karate Black Belt, Successful Student Award, French Merit Award, YRDSB Mandarin Certification, Ontario Scholars Award,YRDSB Student Impact Award. ',
     },
   ];
   
@@ -222,9 +226,9 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2024 - April 2024",
       points: [
-        "Samsung Sponsored PArtnership with Code Ninjas for collaborative efforts on Virtual Reality Education",
-        "Travels across Ontario to Educate about Virtual Reality Software and Advancements",
-        "Public speraking for large groups on the topic of Virtual Reality and Technology Queries",
+        "Samsung Sponsored Partnership with Code Ninjas for collaborative efforts on Virtual Reality Education",
+        "Travels across Ontario to educate about Virtual Reality Software and Advancements",
+        "Public speaking for large groups on the topic of Virtual Reality and Technology Queries",
       ],
     },
     {
@@ -247,7 +251,7 @@ import {
       date: "Oct 2022 - Aug 2023",
       points: [
         "Gained knowledgeability in all aspects of technology consumerism products; Computers, cellular devices, cybersecurity, and network solutions.",
-        "Combined personable Skills and customer service with technology product knowledge to seek Hardware and Software requiremments that best fit individualistic needs.",
+        "Combined personable skills and customer service with technology product knowledge to seek Hardware and Software requiremments that best fit individualistic needs.",
         "Executed diagnostics and repairs in assistance to 'Geek Squad' technicians.",
       ],
     },
@@ -317,31 +321,31 @@ import {
     {
       name: "3D Portfolio",
       description:
-        "A custom built web application displaying accomplishments, experiences, education, projects and publishings. Equipped with self developed elements and animations",
+        "A custom built web application displaying accomplishments, experiences, education, projects and publishings. Equipped with self developed elements and animations.",
       tags: [
         {
           name: "HTML",
-          color: "blue-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "CSS",
-          color: "blue-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "JS",
-          color: "blue-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "React",
-          color: "green-text-gradient",
+          color: "orange-text-gradient",
         },
         {
           name: "Three JS",
-          color: "green-text-gradient",
+          color: "orange-text-gradient",
         },
         {
           name: "Node JS",
-          color: "green-text-gradient",
+          color: "orange-text-gradient",
         },
         {
           name: "Tailwind CSS",
@@ -358,15 +362,15 @@ import {
     {
       name: "Mindful Drive",
       description:
-        "A hardware and software safety device to supervise and maintain alertness of vehicles operators with the use of heart monitor, optical sensor, and utrasonic vibration motor and audio alert systems.",
+        "A hardware and software safety device to supervise and maintain alertness of vehicle operators with the use of heart monitor, optical sensor, and utrasonic vibration motor and audio alert systems.",
       tags: [
         {
           name: "C#",
-          color: "blue-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "STM32 Microcontroller",
-          color: "green-text-gradient",
+          color: "orange-text-gradient",
         },
         {
           name: "STM32 Cube IDE",
@@ -383,11 +387,11 @@ import {
       tags: [
         {
           name: "C#",
-          color: "blue-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "Unity",
-          color: "green-text-gradient",
+          color: "orange-text-gradient",
         },
         {
           name: "Blender",
@@ -404,11 +408,11 @@ import {
       tags: [
         {
           name: "HTML",
-          color: "blue-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "CSS",
-          color: "green-text-gradient",
+          color: "orange-text-gradient",
         },
         {
           name: " ",
@@ -425,11 +429,11 @@ import {
     tags: [
       {
         name: "JS",
-        color: "blue-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "HTML",
-        color: "green-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "CSS",
@@ -446,11 +450,11 @@ import {
     tags: [
       {
         name: "Pre Ace",
-        color: "blue-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "Scroll",
-        color: "green-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "I'm Feeling",
@@ -458,7 +462,7 @@ import {
       },
     ],
     image: comingsoon,
-    source_code_link: "https://github.com/Kyliejoycodes/JS-Lessons",
+    source_code_link: "https://github.com/Kyliejoycodes",
   },     
     // {
     //   name: "Coming soon: Pre Ace",

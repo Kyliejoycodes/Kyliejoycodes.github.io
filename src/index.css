@@ -33,10 +33,11 @@
 }
 #dog{
   position:absolute;
-  top:200px;
-  right:0px;
+  top:310px;
+  right:90px;
   border-radius:20px;
-  width:400px;
+  width:300px;
+  height:250px;
 }
  @media only screen and (max-width: 1220px){
 
@@ -56,7 +57,7 @@
     display:none;
   }
   #dog{
-    display:block;
+    display: none;
   }
   } 
 #samsungpic{
@@ -299,16 +300,16 @@
 
 .blue-text-gradient {
   /* background: -webkit-linear-gradient(#eee, #333); */
-  background: #56ccf2; /* fallback for old browsers */
+  background: #eeefe1; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
-    #2f80ed,
-    #56ccf2
+    #ffffff,
+    #f9f8f7
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
-    #2f80ed,
-    #56ccf2
+    #f8f7f4,
+    #faf8f6
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -329,6 +330,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 
 /* canvas- styles */
 .canvas-loader {
