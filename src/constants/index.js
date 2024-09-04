@@ -232,7 +232,7 @@ import {
       ],
     },
     {
-      title: "Front End Devloper | Optimization Engineer",
+      title: "Front End Developer | Optimization Engineer",
       company_name: "Elevate Integrated Solution",
       icon: elevatelogo,
       iconBg: "#383E56",
