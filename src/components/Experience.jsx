@@ -89,7 +89,7 @@ const Experience = () => {
           <ExperienceCard key={index} experience={experience}/>
         ))}</div>
       </VerticalTimeline>
-      <h1 className='text-[24px] text-white font-bold' style={{ paddingTop: '40px' }}>Non Tech-Realted Employment: </h1>
+      <h1 className='text-[24px] text-white font-bold' style={{ paddingTop: '40px' }}>Non Tech-Related Employment: </h1>
       <p className='text-[18px]'>Golf: Pheasant Run(2021-2023), Mill Run(2021-2022), Red Crest Resort(2020-2021), Cardinal Golf Club(2020-2021)</p>
       <p className='text-[18px]'>Karate: Community Martial Arts Shotokan Karate Teacher(2018-2022)</p>
       {/* </motion.div> */}
